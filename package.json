@@ -2,7 +2,16 @@
   "name": "ramdajs-examples",
   "description": "Examples of using the Ramda.js library",
   "version": "0.0.1",
+  "license": "none",
+  "scripts": {
+    "try": "cd dist; node",
+    "tsc:w": "tsc --watch"
+  },
   "dependencies": {
     "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "@types/ramda": "^0.27.14",
+    "typescript": "^3.9.7"
   }
 }
